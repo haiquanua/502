@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-tucson_rain = pd.read_csv(r"/Users/jennahonan/PycharmProjects/502/data/tucson_rain.txt", sep='\t')
+tucson_rain = pd.read_csv(r"/Users/jennahonan/PycharmProjects/502/data/tucson_rain.txt", sep='\t')  #please use relative path rather than absolute path to improve reproducibility
 flagstaff_rain = pd.read_csv(r"/Users/jennahonan/PycharmProjects/502/data/flagstaff_rain.txt", sep='\t')
 
 tucson_rain2 = tucson_rain['quality'] == 'Good'
